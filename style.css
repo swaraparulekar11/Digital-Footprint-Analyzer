@@ -108,3 +108,66 @@ footer{
     color:white;
     font-size:18px;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .user-input,
+    .score-analysis,
+    .analysis,
+    .recommendations {
+        width: 95%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    #score {
+        font-size: 40px;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .user-input,
+    .score-analysis,
+    .analysis,
+    .recommendations {
+        width: 100%;
+        padding: 15px;
+    }
+
+    #score {
+        font-size: 32px;
+    }
+
+    #riskLevel {
+        font-size: 20px;
+    }
+
+    #footprintform button {
+        font-size: 16px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
