@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Footprint Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Digital Footprint Analyzer</h1>
+    <section class="user-input">
+        <h2>User Information</h2>
+        <form id="footprintform">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="enter full name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="enter email" required>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="enter username" required>
+            <button type="submit">Analyze</button>
+        </form>
+    </section>
+    <section class="score-analysis">
+        <h2>Digital Footprints Risk Score</h2>
+        <div class="score-card">
+            <h3 id="score">0/100</h3>
+            <p id="riskLevel">Not Analyzed</p>
+        </div>
+    </section>
+    <section class="analysis">
+        <h2>Analysis Report</h2>
+        <ul id="analysis-list">
+
+        </ul>
+    </section>
+    <section class="recommendations">
+        <h2>Recommendations</h2>
+        <ul id="recommendationList">
+
+        </ul>
+    </section>
+    <footer>
+         Copyright 2026 | Digital Footprint Analyzer
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
